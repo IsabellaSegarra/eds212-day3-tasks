@@ -5,5 +5,22 @@ format: html
 editor: visual
 ---
 
-##Coding Practice
+## Coding Practice
+
+```{r}
+#create and store two new vectors
+vec_a <- c(1,6)
+vec_a
+class(vec_a)
+vec_b <- c(2,4)
+class(vec_b)
+```
+
+```{r}
+#Check answers 
+vec_a + vec_b # (3,10)
+vec_b - vec_a # (1,-2)
+2*vec_a #(2,12)
+vec_a %*% vec_b #26
+```
 
